@@ -3,7 +3,7 @@
 
 ## data element
  - name
- - unique Id
+ - unique identifier
  - status
  - created timestamp
  - last-updated timestamp
