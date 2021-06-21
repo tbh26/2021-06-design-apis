@@ -12,7 +12,7 @@
  * email -> email = https://schema.org/email
  * status (suspended, active, pending,closed) -> status = https://api.mamund.com/terms/status (point to local definition)
  * dateCreated -> dateCreated = https://schema.org/dateCreated
- * dateUpdated -> dateMOdified = https://schema.org/dateModified
+ * dateUpdated -> dateModified = https://schema.org/dateModified
 
 ## Action Elements
  
