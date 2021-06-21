@@ -11,6 +11,8 @@ You'll find a list of sample stories in the [stories](stories/) folder. You'll a
 ### API Diagrams
 Sample API Diagrams are in the [diagrams](diagrams/) folder. These were created using the http://websequencediagrams.com web app.
 
+_**NOTE: There are some help documents for using WSD here: https://www.websequencediagrams.com/examples.html**_
+
 ### Assignment
 This course has an overnight assignment. The [README](assignment/README.md) lists the details. We'll expand on them throughout the first day of the course, too.
 
