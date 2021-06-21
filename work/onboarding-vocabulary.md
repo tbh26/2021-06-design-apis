@@ -4,7 +4,8 @@
 ## data element
  - unique Id
  - status
-
+ - created timestamp
+ - last-updated timestamp
 
 
 ## enumarations / dynamic lists
