@@ -9,7 +9,7 @@ We'll be working on exercises and class assignments throughout the sessions. We'
 You'll find a list of sample stories in the [stories](stories/) folder. You'll also find a template [API Story Builder](stories/api-story-builder.md). 
 
 ### API Diagrams
-Sample API Diagrams are in the [diagrams](diagrams/) folder. These were created using the http://websequencediagrams.com web app.
+Sample API Diagrams are in the [diagrams](diagrams/) folder. These were created using the http://websequencediagrams.com web app. You can also use https://sequencediagram.org/ to create online WSD files.
 
 _**NOTE: There are some help documents for using WSD here: https://www.websequencediagrams.com/examples.html**_
 
