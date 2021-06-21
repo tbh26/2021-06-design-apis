@@ -2,7 +2,7 @@
 
 
 ## data element
- - name
+ - name   // https://schema.org/name
  - unique identifier
  - status
  - dateCreated   // https://schema.org/dateCreated
