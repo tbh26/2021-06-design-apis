@@ -2,7 +2,7 @@
 
 ## Data Elements
  * companyId -> identifier = https://schema.org/identifier
- * companyName -> legalName = https://schema.org/legalName
+ * companyName -> companyName = https://schema.org/legalName (keep local name, point to shared definition)
  * streetAddress -> streetAddress = https://schema.org/streetAddress
  * city -> city = https://schema.org/addressLocality (keep local name, point to shared definition)
  * stateProvince -> addressRegion = https://schema.org/addressRegion
