@@ -5,8 +5,8 @@
  - name
  - unique identifier
  - status
- - created timestamp
- - last-updated timestamp
+ - dateCreated   // https://schema.org/dateCreated
+ - dateModified   // https://schema.org/dateModified
 
 
 ## enumarations / dynamic lists
