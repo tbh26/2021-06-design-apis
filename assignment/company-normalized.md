@@ -2,17 +2,17 @@
 
 ## Data Elements
  * companyId -> identifier = https://schema.org/identifier
- * companyName -> legalName = https://schema.org/legalName
+ * companyName -> companyName = https://schema.org/legalName (keep local name, point to shared definition)
  * streetAddress -> streetAddress = https://schema.org/streetAddress
- * city -> locality = https://schema.org/addressLocality
+ * city -> city = https://schema.org/addressLocality (keep local name, point to shared definition)
  * stateProvince -> addressRegion = https://schema.org/addressRegion
  * postalCode -> postalCode = https://schema.org/postalCode
  * country -> addressCountry = https://schema.org/addressCountry
  * telephone -> telephone = https://schema.org/telephone
  * email -> email = https://schema.org/email
- * status (suspended, active, pending,closed) -> status = https://schema.org/status
+ * status (suspended, active, pending,closed) -> status = https://api.mamund.com/terms/status (point to local definition)
  * dateCreated -> dateCreated = https://schema.org/dateCreated
- * dateUpdated -> dateMOdified = https://schema.org/dateModified
+ * dateUpdated -> dateModified = https://schema.org/dateModified
 
 ## Action Elements
  
