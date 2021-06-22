@@ -7,17 +7,17 @@ digraph application_state_diagram {
   ];
   node [shape = box, style = "bold,filled" fillcolor="lightgray"];
 
-    item [margin=0.02, label=<<table cellspacing="0" cellpadding="5" border="0"><tr><td>item<br />(company)<br /></td></tr></table>>,shape=box URL="docs/semantic.item.html" target="_parent"]
     list [margin=0.02, label=<<table cellspacing="0" cellpadding="5" border="0"><tr><td>list<br />(company)<br /></td></tr></table>>,shape=box URL="docs/semantic.list.html" target="_parent"]
+    item [margin=0.02, label=<<table cellspacing="0" cellpadding="5" border="0"><tr><td>item<br />(company)<br /></td></tr></table>>,shape=box URL="docs/semantic.item.html" target="_parent"]
 
-    home -> list [label = <go-list (safe)> URL="docs/safe.go-list.html" target="_parent" fontsize=13];
-    item -> home [label = <go-home (safe)> URL="docs/safe.go-home.html" target="_parent" fontsize=13];
-    item -> item [label = <do-update (idempotent)> URL="docs/idempotent.do-update.html" target="_parent" fontsize=13];
+    home -> list [label = "go-list (safe)" URL="docs/safe.go-list.html" target="_parent" fontsize=13];
+    list -> list [label=<<table  border="0"><tr><td align="left" href="docs/safe.go-filter.html">go-filter (safe)</td></tr><tr><td align="left" href="docs/unsafe.do-create.html">do-create (unsafe)</td></tr></table>> fontsize=13];
+    list -> item [label = "go-read (safe)" URL="docs/safe.go-read.html" target="_parent" fontsize=13];
+    list -> home [label = "go-home (safe)" URL="docs/safe.go-home.html" target="_parent" fontsize=13];
+    item -> item [label = "do-update (idempotent)" URL="docs/idempotent.do-update.html" target="_parent" fontsize=13];
     item -> list [label=<<table  border="0"><tr><td align="left" href="docs/idempotent.do-delete.html">do-delete (idempotent)</td></tr><tr><td align="left" href="docs/safe.go-list.html">go-list (safe)</td></tr></table>> fontsize=13];
-    list -> home [label = <go-home (safe)> URL="docs/safe.go-home.html" target="_parent" fontsize=13];
-    list -> item [label = <go-read (safe)> URL="docs/safe.go-read.html" target="_parent" fontsize=13];
-    list -> list [label=<<table  border="0"><tr><td align="left" href="docs/unsafe.do-create.html">do-create (unsafe)</td></tr><tr><td align="left" href="docs/safe.go-filter.html">go-filter (safe)</td></tr></table>> fontsize=13];
+    item -> home [label = "go-home (safe)" URL="docs/safe.go-home.html" target="_parent" fontsize=13];
 
-    home [label = <home> URL="docs/semantic.home.html" target="_parent"]
+    home [URL="docs/semantic.home.html" target="_parent"]
 
 }

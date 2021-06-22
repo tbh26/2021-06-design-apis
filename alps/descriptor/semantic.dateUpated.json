@@ -1,0 +1,12 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "descriptor": [
+      {
+        "id": "dateUpated",
+        "ref": "https://schema.org/dateModified",
+        "type": "semantic"
+      }
+    ]
+  }
+}

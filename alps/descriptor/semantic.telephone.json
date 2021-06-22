@@ -1,0 +1,12 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "descriptor": [
+      {
+        "id": "telephone",
+        "ref": "https://schema.org/telephone",
+        "type": "semantic"
+      }
+    ]
+  }
+}

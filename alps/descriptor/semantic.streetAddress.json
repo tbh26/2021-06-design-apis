@@ -1,0 +1,12 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "descriptor": [
+      {
+        "id": "streetAddress",
+        "ref": "https://schema.org/streetAddress",
+        "type": "semantic"
+      }
+    ]
+  }
+}

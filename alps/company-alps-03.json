@@ -14,6 +14,7 @@
       {"id":"addressCountry", "type": "semantic", "def":"https://schema.org/addressCountry", "tag":"ontology"},
       {"id":"telephone", "type": "semantic", "def":"https://schema.org/telephone", "tag":"ontology"},
       {"id":"email", "type": "semantic", "def":"https://schema.org/email", "tag":"ontology"},
+      {"id":"moreInfo", "type": "semantic", "def":"-", "tag":"ontology"},
       {"id":"dateCreated", "type": "semantic", "def":"https://schema.org/dateCreated", "tag":"ontology"},
       {"id":"dateUpated", "type": "semantic", "def":"https://schema.org/dateModified", "tag":"ontology"},
       
@@ -29,6 +30,7 @@
           {"href":"#addressCountry"},
           {"href":"#telephone"},
           {"href":"#email"},
+          {"href":"#moreInfo"},
           {"href":"#dateCreated"},
           {"href":"#dateUpated"}
         ]

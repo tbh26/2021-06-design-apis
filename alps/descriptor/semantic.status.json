@@ -1,0 +1,12 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "descriptor": [
+      {
+        "id": "status",
+        "ref": "https://schema.org/status",
+        "type": "semantic"
+      }
+    ]
+  }
+}
