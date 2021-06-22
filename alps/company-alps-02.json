@@ -1,0 +1,47 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps" : {
+    "title": "Company API for BigCo, Inc.",
+    
+    "descriptor": [
+      {"id":"identifier", "type": "semantic", "def":"https://schema.org/identifier", "tag":"ontology"},
+      {"id":"status", "type": "semantic", "def":"https://schema.org/status", "tag":"ontology"},
+      {"id":"legalName", "type": "semantic", "def":"https://schema.org/legalName", "tag":"ontology"},
+      {"id":"streetAddress", "type": "semantic", "def":"https://schema.org/streetAddress", "tag":"ontology"},
+      {"id":"locality", "type": "semantic", "def":"https://schema.org/addressLocality", "tag":"ontology"},
+      {"id":"addressRegion", "type": "semantic", "def":"https://schema.org/addressRegion", "tag":"ontology"},
+      {"id":"postalCode", "type": "semantic", "def":"https://schema.org/postalCode", "tag":"ontology"},
+      {"id":"addressCountry", "type": "semantic", "def":"https://schema.org/addressCountry", "tag":"ontology"},
+      {"id":"telephone", "type": "semantic", "def":"https://schema.org/telephone", "tag":"ontology"},
+      {"id":"email", "type": "semantic", "def":"https://schema.org/email", "tag":"ontology"},
+      {"id":"dateCreated", "type": "semantic", "def":"https://schema.org/dateCreated", "tag":"ontology"},
+      {"id":"dateUpated", "type": "semantic", "def":"https://schema.org/dateModified", "tag":"ontology"},
+      
+      {"id":"company", "type":"semantic", 
+        "descriptor": [
+          {"href":"#identifier"},
+          {"href":"#status"},
+          {"href":"#legalName"},
+          {"href":"#streetAddress"},
+          {"href":"#locality"},
+          {"href":"#addressRegion"},
+          {"href":"#postalCode"},
+          {"href":"#addressCountry"},
+          {"href":"#telephone"},
+          {"href":"#email"},
+          {"href":"#dateCreated"},
+          {"href":"#dateUpated"}
+        ]
+      },
+      
+      {"id":"go-home", "type":"safe", "rt":"#company", "tag":"choreography"},
+      {"id":"go-list", "type":"safe", "rt":"#company", "tag":"choreography"},
+      {"id":"do-create", "type":"unsafe", "rt":"#company", "tag":"choreography"},      
+      {"id":"go-read", "type":"safe", "rt":"#company", "tag":"choreography"},
+      {"id":"do-update", "type":"idempotent", "rt":"#company", "tag":"choreography"},
+      {"id":"do-delete", "type":"idempotent", "rt":"#company", "tag":"choreography"},
+      {"id":"go-filter","type":"safe", "rt":"#company", "tag":"choreography"}
+   
+    ]
+  }
+}
